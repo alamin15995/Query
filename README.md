@@ -47,7 +47,7 @@ Project Folder
     ├── holiday.png  # Holiday section image
     ├── climb.jpg    # Climb section image
     └── culture.jpg  # Culture section image
-```
+
 
 ## External Dependencies
 1. **Google Fonts**:
