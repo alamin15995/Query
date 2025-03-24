@@ -1,0 +1,457 @@
+/* =================Common CSS Start============== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1320px;
+    margin: auto;
+}
+
+/* =================Common CSS End============== */
+
+/* ===============Banner Sectrion Start============ */
+#banner {
+    background: url(../Images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+#banner .container .menuParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .container .menuParent .menuList ul {
+    display: flex;
+    column-gap: 60px;
+}
+
+#banner .container .menuParent .menuList ul li a {
+    width: 80;
+    height: 25;
+    top: 35px;
+    left: 1095px;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#banner .container .menuParent .menuList ul li a:hover {
+    color: #000000;
+}
+
+#banner .container .discover {
+    margin-top: 400px;
+    margin-bottom: 450px;
+}
+
+#banner .container .discover h4 {
+    color: #ffc178;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+#banner .container .discover h1 {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+#banner .container .discover h1 span {
+    color: #dfd1d1;
+    font-family: Open Sans;
+    font-weight: 100;
+    font-size: 88px;
+    line-height: 100px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    font-style: italic;
+    display: block;
+}
+
+/* ===============Banner Sectrion End============ */
+
+/* ================Holiday section Start============ */
+#holiday {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+#holiday .container .holidayWrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+#holiday .container .holidayWrapper .holidayLeft picture img {
+    width: 750px;
+    height: 800px;
+    top: 1515px;
+    left: 300px;
+}
+
+#holiday .container .holidayWrapper .holidayRight h4 {
+    color: #fbd784;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+#holiday .container .holidayWrapper .holidayRight h1 {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#holiday .container .holidayWrapper .holidayRight p {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#holiday .container .holidayWrapper .holidayRight a {
+    color: #fbd784;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+/* ================Holiday section End================ */
+
+/* =================Climb section start=============== */
+#climb {
+    padding: 50px 0;
+    background-color: #000000;
+}
+
+#climb .container .imageDiv {
+    background: url(../Images/climb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+#climb .container .imageDiv .climbContent {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-align: center;
+}
+
+#climb .container .imageDiv .climbContent h3 {
+    color: #fbd784;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+#climb .container .imageDiv .climbContent h1 {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#climb .container .imageDiv .climbContent p {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#climb .container .imageDiv .climbContent a {
+    color: #fbd784;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/* =================Climb section end===================== */
+
+/* =================culture section start================= */
+#culture {
+    padding: 50px 0;
+    background-color: #000000;
+}
+
+#culture .container .cultureContent {
+    display: flex;
+    column-gap: 10px;
+}
+
+#culture .container .cultureContent .cultureInfo {
+    margin: 100px;
+}
+
+#culture .container .cultureContent .cultureImage picture img {
+    width: 550px;
+    height: 650px;
+}
+
+#culture .container .cultureContent .cultureInfo h4 {
+    color: #fbd784;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+#culture .container .cultureContent .cultureInfo h1 {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#culture .container .cultureContent .cultureInfo p {
+    color: #ffffffcc;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#culture .container .cultureContent .cultureInfo a {
+    color: #fbd784;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+/* =================culture section end====================== */
+
+/* ====================footer section start=================== */
+#footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #000000;
+}
+
+#footer .container .footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .container .footerTop .footerButton a[href="www.explore.com"] {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    margin-right: 30px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#footer .container .footerTop .footerButton a[href="www.explore.com"]:hover {
+    color: #ffa343;
+}
+
+#footer .container .footerTop .footerButton a[href="www.getstarted.com"] {
+    width: 200px;
+    padding: 18px 50px;
+    color: #000000;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: capitalize;
+    background-color: #ffa343;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#footer .container .footerTop .footerButton a[href="www.getstarted.com"]:hover {
+   background-color: rgba(255, 255, 255, 0.538);
+}
+
+#footer .container .footerBottom {
+    height: 200px;
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#footer .container .footerBottom .footerBottom1 h1 {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 100%;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+
+#footer .container .footerBottom .footerBottom1 p {
+    color: #ffffff;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+#footer .container .footerBottom .footerBottom1 .footerIcon i {
+    width: 30px;
+    height: 15px;
+    margin-top: 25px;
+    margin-right: 5px;
+    color: white;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#footer .container .footerBottom .footerBottom1 .footerIcon i:hover {
+    color: rgba(0, 0, 255, 0.861);
+}
+
+#footer .container .footerBottom .footerBottom2 {
+    flex-grow: 1;
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+
+#footer .container .footerBottom .footerBottom2 ul h3 {
+    color: #ffd1a0;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.23px;
+    text-transform: capitalize;
+}
+
+#footer .container .footerBottom .footerBottom2 ul li {
+    color: #ffffffed;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+    margin: 12px 0;
+}
+
+/* ====================footer section end===================== */
